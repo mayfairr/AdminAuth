@@ -8,7 +8,7 @@ using UnityEngine;
 namespace Oxide.Plugins
 {
     [Info("AdminAuth", "mayfairr", "1.0")]
-    public class AdminAuth : RustPlugin
+    public class AdminAuth : CovalencePlugin
     {
         #region Config
         private PluginConfig config;
@@ -41,10 +41,10 @@ namespace Oxide.Plugins
         #endregion
 
         #region Commands
-        [Command("aasettings"), Permission("AdminAuth.settings")]
+        [Command("request"), Permission("AdminAuth.request")]
         private void Settings(IPlayer player, string command, string[] args)
         {
-            //Change Config Settings...
+           //Admin Commands
         }
         #endregion
     }
