@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("AdminAuth", "mayfairr", "0.3")]
+    [Info("AdminAuth", "mayfairr", "1.0")]
     public class AdminAuth : RustPlugin
     {
         #region Config
